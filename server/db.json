@@ -1,0 +1,92 @@
+{
+  "resource": [
+    {
+      "id": 1,
+      "img": "https://www.cyberpunk.net/build/images/home8/product-cp77@2x-4a388c1d.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://www.cyberpunk.net/build/images/home8/product-phantomliberty-final@2x-21744e1b.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://www.cyberpunk.net/build/images/home8/product-edgerunners@2x-ef51ea00.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://www.cyberpunk.net/build/images/home8/product-gear@2x-d7cc2a2b.jpg"
+    }
+  ],
+
+  "news": [
+    {
+      "id": 1,
+      "img": "https://cdn-s.cdprojektred.com/news/panoramic/64aaef1fce12dc729c9af9686f41d5a483f1d991dbe7a229.png",
+      "title": "SAVE THE DATE: REDSTREAMS Q&A WITH ALIX WILTON REGAN, JANE PERRY AND MINJI CHANG!",
+      "description": "What could be better than having Minji Chang, Alix Wilton Regan or Jane Perry on REDstreams? Having all three of them at once, of course! Tune in to REDstreams Q&A episode, this Wednesday, February 21st, at 6PM CET on https://www.twitch.tv/cdprojektred. Hosted as always by our Senior Community Managers: Amelia Kołat and Alicja Kozera!"
+    },
+    {
+      "id": 2,
+      "img": "https://static.cdprojektred.com/cms.cdprojektred.com/16x9_middle/9d03c9e7448d4d361fb94894499713278c9b3b50-592x334.jpg",
+      "title": "SAVE THE DATE: REDSTREAMS WITH ALIX WILTON REGAN & JANE PERRY!",
+      "description": "Curious about the behind-the-scenes magic of capturing the voices of Night City's formidable women? Look no further! Prepare yourselves for an upcoming special episode of REDstreams, featuring none other than Alix Wilton Regan, the voice behind Alt Cunningham, and Jane Perry, the iconic Rogue! "
+    },
+    {
+      "id": 3,
+      "img": "https://static.cdprojektred.com/cms.cdprojektred.com/16x9_middle/dd3fcf214a183401b9574e996c729e25fa1b342d-592x334.jpeg",
+      "title": "PATCH 2.11",
+      "description": "Patch 2.11 for Cyberpunk 2077 and Phantom Liberty is being rolled out on PC, PlayStation 5 and Xbox Series X|S. In this update we focused on fixing the most common issues encountered by players, including Finisher animations, and added a little something for Rayfield enthusiasts!"
+    },
+    {
+      "id": 4,
+      "img": "https://static.cdprojektred.com/cms.cdprojektred.com/16x9_middle/177200637e8f4e0a89eaf81e08a18c7ca9ca8242-592x334.jpg",
+      "title": "SAVE THE DATE: REDSTREAMS WITH MINJI CHANG & BORYS PUGACZ-MURASZKIEWICZ!",
+      "description": "After the last REDstreams with Mr Hands you asked for more, so we used our connections in Night City to interview other characters. Tune in next week for a stream featuring Minji Chang, who voiced Songbird in #Cyberpunk2077 #PhantomLiberty. She'll be accompanied by Borys Pugacz-Muraszkiewicz, our English Adaptation Director."
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "img": "https://i.pinimg.com/1200x/8e/49/04/8e4904ebd5e805db0f4ccaddee513b83.jpg",
+      "price": 29.99,
+      "title": "Cyberpunk City Poster",
+      "description": "Transform your interior with this stunning Cyberpunk City poster. It brings the cyberpunk atmosphere to your room with vivid colors and details, creating a unique ambiance."
+    },
+    {
+      "id": 2,
+      "img": "https://moveekbuddyshop.com/cdn/shop/products/hh_369781ec-cf97-4007-be58-83bd92e58165_1200x.png?v=1601283906",
+      "price": 49.99,
+      "title": "Cyberpunk Logo Hoodie",
+      "description": "Look stylish and modern with this fashionable Cyberpunk logo hoodie. It fits comfortably and is suitable for both everyday wear and gaming sessions."
+    },
+    {
+      "id": 3,
+      "img": "https://i.pinimg.com/1200x/8e/49/04/8e4904ebd5e805db0f4ccaddee513b83.jpg",
+      "price": 14.99,
+      "title": "Cyberpunk City Poster",
+      "description": "This amazing Cyberpunk City poster will bring the future's atmosphere to your home. It's an excellent choice for science fiction and cyberpunk enthusiasts."
+    },
+    {
+      "id": 4,
+      "img": "https://ae01.alicdn.com/kf/S57277923d8ef43c8b90cdc44c6ff2a53p/Razer-Viper-Ultimate-Cyberpunk-2077-Mouse-Pad-RGB-Pc-Accessories-LED-Gaming-Mousepad-New-Desk-Mat.jpg",
+      "price": 39.99,
+      "title": "Cyberpunk RGB Mousepad",
+      "description": "This RGB mousepad adds a stylish touch to your gaming setup. With RGB lighting and a comfortable surface, it's perfect for gamers."
+    },
+    {
+      "id": 5,
+      "img": "https://www.fragstore.cy/web/image/product.image/1304/image_1024/Cyberpunk%202077%20Logo%20Snap%20Back%20Cap%2C%20Black-Yellow?unique=ad441a9",
+      "price": 19.99,
+      "title": "Cyberpunk Logo Cap",
+      "description": "Add some brightness to your outfit with this Cyberpunk 2077 logo cap. With high-quality materials and a stylish design, it's a great addition to your wardrobe."
+    },
+    {
+      "id": 6,
+      "img": "https://ae04.alicdn.com/kf/S90183d5ba52244a296ccfee8e1677be8A.jpg",
+      "price": 9.99,
+      "title": "Cyberpunk RGB Mousepad",
+      "description": "Embrace the cyberpunk aesthetic with this RGB mousepad. It creates an impressive gaming atmosphere with its lighting and stylish design."
+    }
+  ]
+}
