@@ -2,19 +2,23 @@
   "resource": [
     {
       "id": 1,
-      "img": "https://www.cyberpunk.net/build/images/home8/product-cp77@2x-4a388c1d.jpg"
+      "img": "https://www.cyberpunk.net/build/images/home8/product-cp77@2x-4a388c1d.jpg",
+      "title": "cyberpunk"
     },
     {
       "id": 2,
-      "img": "https://www.cyberpunk.net/build/images/home8/product-phantomliberty-final@2x-21744e1b.jpg"
+      "img": "https://www.cyberpunk.net/build/images/home8/product-phantomliberty-final@2x-21744e1b.jpg",
+      "title": "phantom"
     },
     {
       "id": 3,
-      "img": "https://www.cyberpunk.net/build/images/home8/product-edgerunners@2x-ef51ea00.jpg"
+      "img": "https://www.cyberpunk.net/build/images/home8/product-edgerunners@2x-ef51ea00.jpg",
+      "title": "Netflix"
     },
     {
       "id": 4,
-      "img": "https://www.cyberpunk.net/build/images/home8/product-gear@2x-d7cc2a2b.jpg"
+      "img": "https://www.cyberpunk.net/build/images/home8/product-gear@2x-d7cc2a2b.jpg",
+      "title": "merch"
     }
   ],
 

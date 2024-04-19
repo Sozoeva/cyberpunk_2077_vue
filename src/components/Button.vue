@@ -8,7 +8,6 @@
 button {
   font-size: 22px;
   padding: 10px 0;
-  width: 25%;
   margin-bottom: 2%;
   background-color: transparent;
   border: 1px solid #fcee0a;

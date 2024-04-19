@@ -7,4 +7,5 @@ export interface INews {
 export interface IResource {
   id: number;
   img: string;
+  title: string;
 }

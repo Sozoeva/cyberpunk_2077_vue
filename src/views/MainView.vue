@@ -3,6 +3,7 @@ import { onMounted } from "vue";
 import { useNewsStore } from "@/stores/newsStore";
 import { useResourceStore } from "@/stores/resourceStore";
 import Button from "../components/Button.vue";
+import router from "@/router";
 
 const newsStore = useNewsStore();
 
@@ -12,6 +13,10 @@ onMounted(() => {
   newsStore.getNews();
   resourceStore.getResource();
 });
+
+const onPage = (path: string) => {
+  router.push(`/${path}`);
+};
 
 const truncateText = (text: string) => {
   if (text.length > 30) {
@@ -36,12 +41,12 @@ const truncateText = (text: string) => {
           "Cyberpunk 2077" available now on all platforms
         </h2>
         <div class="main_btns flex flex-row justify-center gap-14">
-          <Button>
+          <Button class="w-72">
             <RouterLink to="/cyberpunk" class="nav_link">
               Learn more
             </RouterLink>
           </Button>
-          <Button>
+          <Button class="w-72">
             <a
               class="link"
               href="https://www.youtube.com/watch?v=LembwKDo1Dk"
@@ -71,8 +76,13 @@ const truncateText = (text: string) => {
         <div class="grid grid-cols-2 gap-5">
           <div v-for="news in newsStore.news">
             <p class="flex justify-end">News_</p>
-            <RouterLink to="/news">
-              <img class="w-80" :src="news.img" alt="" />
+            <RouterLink :to="`/news/${news.id}`">
+              <img
+                class="w-80"
+                :src="news.img"
+                alt=""
+                @click="newsStore.getNewsById(news.id)"
+              />
             </RouterLink>
             <p class="text-xl font-bold">{{ truncateText(news.title) }}</p>
             <div class="main_news_line"></div>
@@ -95,9 +105,12 @@ const truncateText = (text: string) => {
       </section>
       <div class="bg-yellow px-10 pb-20">
         <div class="w-full p-3 grid grid-cols-4 bg-black gap-5">
-          <div v-for="resource in resourceStore.resource" class="relative">
+          <div
+            v-for="resource in resourceStore.resource"
+            class="relative flex justify-center"
+          >
             <img :src="resource.img" alt="" />
-            <Button class="button">Learn more</Button>
+            <Button class="button" @click="onPage(resource.title)">Learn more</Button>
           </div>
         </div>
       </div>
@@ -160,9 +173,10 @@ const truncateText = (text: string) => {
 
 .button {
   position: absolute;
-  width: 100%;
+  width: 80%;
   bottom: 10px;
   color: #00f0ff;
   border: 1px solid #00f0ff;
+  text-align: center;
 }
 </style>
