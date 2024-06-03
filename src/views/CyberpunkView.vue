@@ -1,7 +1,7 @@
 <template>
   <div className="cyberpunk">
     <div className="cyberpunk_imgs">
-      <video autoPlay loop muted>
+      <video autoPlay loop muted class=" w-full -z-10">
         <source src="../assets/cyberpunk2077.mp4" type="video/mp4" />
       </video>
     </div>

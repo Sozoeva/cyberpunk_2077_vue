@@ -92,5 +92,40 @@
       "title": "Cyberpunk RGB Mousepad",
       "description": "Embrace the cyberpunk aesthetic with this RGB mousepad. It creates an impressive gaming atmosphere with its lighting and stylish design."
     }
+  ],
+
+  "characters": [
+    {
+      "id": 1,
+      "img": "https://www.cyberpunk.net/build/images/phantom-liberty/character-myers@2x-a5da415d.png",
+      "name": "Myers",
+      "description": "The former and the current President of the New United States of America. Currently in her third term, Myers is in the unenviable position of running a country at a time when power is wielded by corporations. While traveling on the Space Force One, Myers, triggering a power struggle with far-reaching consequences."
+    },
+    {
+      "id": 2,
+      "img": "https://www.cyberpunk.net/build/images/phantom-liberty/character-songbird@2x-115a5186.png",
+      "name": "Songbird",
+      "description": "A talented netrunner and right hand. There aren’t many people who can keep up with her abilities. Songbird’s talent makes her a valuable asset to the NUSA, one the country needs on its side to defend the nation’s precarious position. Leaving her post is not an option."
+    },
+    {
+      "id": 3,
+      "img": "https://www.cyberpunk.net/build/images/phantom-liberty/character-reed@2x-d13cf2a0.png",
+      "name": "Reed",
+      "description": "Solomon Reed is an experienced FIA agent who’s proven himself countless times in covert intelligence missions. He knows better than anyone how to tap into the , how to extract information, and how to break into even the most tightly guarded places. His loyalty and sense of duty is difficult to shake."
+    },
+    {
+      "id": 4,
+      "img": "https://www.cyberpunk.net/build/images/phantom-liberty/character-alex@2x-32ae1659.png",
+      "name": "Alex",
+      "description": "Once an aspiring braindance actress, Alex was recruited to the NUSA’s Federal Intelligence Agency by Solomon Reed. A talented shapeshifter, she also happens to have a mean streak that  did nothing to temper. But as long as she’s playing a part, her true personality won’t peek through."
+    },
+    {
+      "id": 5,
+      "img": "https://www.cyberpunk.net/build/images/phantom-liberty/character-hansen@2x-20238681.png",
+      "name": "Hansen",
+      "description": "Colonel Hansen rules Dogtown with an iron fist. He carved out this patch of land for himself during the  and intends to keep it with the help of his loyal Barghest soldiers. Hansen’s military background doesn’t mean he favors violence as a solution; his keen intellect and strategic foresight make him a formidable foe."
+    }
+
+
   ]
 }
