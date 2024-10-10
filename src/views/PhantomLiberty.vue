@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useCharactersStore } from "@/stores/charactersStore";
 import { onMounted } from "vue";
+import { phantomLiberty } from "@/assets";
 
 const charactersStore = useCharactersStore();
 
@@ -12,7 +13,7 @@ onMounted(() => {
 <template>
   <div className="cyberpunk_imgs">
     <video autoPlay loop muted>
-      <source src="../assets/phantomLiberty.mp4" type="video/mp4" />
+      <source :src="phantomLiberty" type="video/mp4" />
     </video>
 
     <section class="bg-black">

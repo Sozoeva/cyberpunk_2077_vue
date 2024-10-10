@@ -4,12 +4,12 @@ import type { ICharscters } from "@/types/types";
 import axios from "axios";
 
 export const useCharactersStore = defineStore("characters", () => {
-  const characters = ref<ICharscters[]>([]);  
+  const characters = ref<ICharscters[]>([]);
 
   const getCharacters = async () => {
     try {
       const { data } = await axios.get(
-        `${import.meta.env.VITE_APP_MAIN_URL}/characters`
+        `${import.meta.env.VITE_APP_MAIN_URL}/api/characters`
       );
       characters.value = data;
     } catch (error) {
@@ -17,5 +17,5 @@ export const useCharactersStore = defineStore("characters", () => {
     }
   };
 
-  return { characters, getCharacters};
+  return { characters, getCharacters };
 });

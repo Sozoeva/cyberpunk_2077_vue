@@ -6,14 +6,14 @@ const newsStore = useNewsStore()
 </script>
 
 <template>
-  <div class=" relative">
+  <div class="news relative">
     <img
-      class="w-full absolute -z-10"
-      src="https://techraptor.net/sites/default/files/styles/content_inline_mobile/public/images/Cyberpunk%202077%20Free%20DLC%20Graffiti%20Interstitial.jpg?itok=vweAlSU7"
+      class=" absolute w-full h-screen -z-10 opacity-90"
+      src="https://images5.alphacoders.com/927/927025.png"
       alt=""
     />
     <div class=" h-screen flex items-center justify-center">
-      <p>{{ newsStore.oneNews?.title }}</p>
+      <p class="text-black">{{ newsStore.oneNews?.title }}</p>
     </div>
   </div>
 </template>

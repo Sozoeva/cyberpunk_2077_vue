@@ -19,12 +19,12 @@ watch(
     <nav className="nav flex justify-between items-center">
       <RouterLink to="/" className="nav_link" v-if="headerBackgroundColor">
         <div>
-          <img class="w-64" src="../../assets/logo2.png" alt="logo" />
+          <img class="w-64" src="./images/logo2.png" alt="logo" />
         </div>
       </RouterLink>
       <RouterLink to="/" v-else>
         <div>
-          <img class="w-64" src="../../assets/logo.png" alt="logo" />
+          <img class="w-64" src="./images/logo.png" alt="logo" />
         </div>
       </RouterLink>
       <div className="links flex px-16 py-1 backdrop-blur-3xl">

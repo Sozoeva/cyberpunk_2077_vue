@@ -10,7 +10,7 @@ export const useNewsStore = defineStore("news", () => {
   const getNews = async () => {
     try {
       const { data } = await axios.get(
-        `${import.meta.env.VITE_APP_MAIN_URL}/news`
+        `${import.meta.env.VITE_APP_MAIN_URL}/api/news`
       );
       news.value = data;
     } catch (error) {
@@ -21,7 +21,7 @@ export const useNewsStore = defineStore("news", () => {
   const getNewsById = async (id: number) => {
     try {
       const { data } = await axios.get(
-        `${import.meta.env.VITE_APP_MAIN_URL}/news/${id}`
+        `${import.meta.env.VITE_APP_MAIN_URL}/api/news/${id}`
       );
       oneNews.value = data;
     } catch (error) {

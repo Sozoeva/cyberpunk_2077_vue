@@ -9,7 +9,7 @@ export const useResourceStore = defineStore("resource", () => {
   const getResource = async () => {
     try {
       const { data } = await axios.get(
-        `${import.meta.env.VITE_APP_MAIN_URL}/resource`
+        `${import.meta.env.VITE_APP_MAIN_URL}/api/resource`
       );
       resource.value = data;
     } catch (error) {

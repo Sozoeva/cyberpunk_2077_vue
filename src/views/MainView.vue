@@ -2,15 +2,13 @@
 import { IntroSections } from "@/modules";
 import { NewsSections } from "@/modules";
 import { TitleSections } from "@/modules";
+import { mainVideo } from "@/assets";
 </script>
 
 <template>
   <main class="relative">
     <video autoPlay loop muted class="absolute w-full -z-10">
-      <source
-        src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_UE_KV_Animation_1920x1080_AV1.mp4"
-        type="video/mp4"
-      />
+      <source :src="mainVideo" type="video/mp4" />
     </video>
     <div>
       <TitleSections />
@@ -19,4 +17,3 @@ import { TitleSections } from "@/modules";
     </div>
   </main>
 </template>
-

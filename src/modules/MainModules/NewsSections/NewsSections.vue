@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Button from "@/components/Button.vue";
 import { useNewsStore } from "@/stores/newsStore";
 import { onMounted } from "vue";
 const newsStore = useNewsStore();
@@ -45,6 +46,7 @@ const truncateText = (text: string) => {
         <div class="main_news_line"></div>
       </div>
     </div>
+    <Button> Watch more </Button>
   </section>
 </template>
 

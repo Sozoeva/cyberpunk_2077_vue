@@ -1,9 +1,11 @@
-<script></script>
+<script setup lang="ts">
+import Button from "@/components/Button.vue";
+</script>
 
 <template>
   <section class="main_title text-center pt-titleTop">
-    <h2 class="uppercase mb-20 text-5xl">
-      "Cyberpunk 2077" available now on all platforms
+    <h2 class="uppercase mb-20 text-5xl font-black text-black">
+      Get the Ultimate Cyberpunk 2077 Experience
     </h2>
     <div class="main_btns flex flex-row justify-center gap-14">
       <Button class="w-72">

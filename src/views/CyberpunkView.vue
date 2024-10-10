@@ -1,8 +1,12 @@
+<script setup lang="ts">
+import { cyberpunk2077 } from '@/assets';
+</script>
+
 <template>
   <div className="cyberpunk">
     <div className="cyberpunk_imgs">
       <video autoPlay loop muted class=" w-full -z-10">
-        <source src="../assets/cyberpunk2077.mp4" type="video/mp4" />
+        <source :src="cyberpunk2077" type="video/mp4" />
       </video>
     </div>
     <div className="cyberpunk_story">

@@ -1,11 +1,11 @@
 <template>
-  <button class="text-yellow">
+  <button class="button text-yellow">
     <slot />
   </button>
 </template>
 
-<style lang="scss" scoped>
-button {
+<style scoped lang="scss">
+.button {
   font-size: 22px;
   padding: 10px 0;
   margin-bottom: 2%;
